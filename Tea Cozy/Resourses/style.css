@@ -1,0 +1,163 @@
+
+body {
+    margin:0;
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 22px;
+    color: rgb(219, 214, 210);
+    text-align: center;
+    background-color: rgb(19, 18, 18);
+}
+
+header {
+    min-height: 69px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    top: 0;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+header img {
+    max-height: 50px;
+    padding-left: 40px;
+}
+ nav { 
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+nav span {
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    color: seashell;  
+}
+#mission {
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: auto;  
+}
+#background-photo {
+    background-image: url("./Images/img-mission-background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mission .letters {
+    background-color: black;
+    opacity: 0.82;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+ h2 {
+     font-size: 1.7em;
+     text-align: center;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+ h4 {
+     font-size: 1.3em;  
+}
+
+h5 {
+    font-size: 1.1em;
+}
+
+ #tea {
+    position: relative; 
+    top: 70px;
+    margin: 20px;
+}
+
+ #tea .tea-letters {
+    width: 100%;
+    height: auto;
+}
+
+ #tea .tea-pics { 
+     width: 100%;
+     display: inline-flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
+
+ figure {
+          
+ }  
+
+ figure img {
+    height: 200px;
+    width: 300px;   
+ }
+ 
+ figcaption {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+ #locations {
+    position: relative;
+    top: 70px; 
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+    width: auto;
+    min-height: 600px;
+    background-image: url("./Images/img-locations-background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-around;
+ }
+ 
+ #locations h2 {
+    width: 100%;
+    padding-top: 30px;
+}
+#locations .address {
+   background-color: black;
+   opacity: 0.8;
+   width: 300px;
+   height: 300px;
+   margin: 20px;
+}
+
+#locations .address p {
+    line-height: 2.6;
+}
+
+footer {
+  position: relative;
+  top: 70px; 
+}
+
+footer .contact {
+    height: 200px;
+    padding-bottom: 20px;
+
+}
+footer p {
+    text-align: left;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
